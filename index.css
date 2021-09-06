@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Lato";
+  src: url(Lato.ttf);
+}
+body {
+
+  font-family: "Lato";
+  border: black 1px solid;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.game {
+  display: flex;
+  background-color: violet;
+  border: black 1px solid;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 600px;
+}
+
+.current {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border: black 1px solid;
+}
+
+.player {
+
+  border: black 1px solid;
+}
+
+
+div {
+  padding: 10px;
+}
+
+.score1, .score2 {
+  font-size: 36px;
+}
